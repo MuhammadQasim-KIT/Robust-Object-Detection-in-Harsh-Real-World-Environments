@@ -43,7 +43,7 @@ Detection performance on the original, clean scene.
 🎥 **Annotated Output Video**
 results/videos/carss_yolo_baseline.mp4
 
-![Baseline Example](results/example_baseline_frame.png)
+![Baseline Example](data/raw/Raw.png)
 
 ---
 
@@ -59,7 +59,7 @@ The same scene was transformed to mimic real-world degradation such as:
 🎥 **Degraded Video**
 data/processed/carss_degraded.mp4
 
-![Degraded Example](results/example_degraded_frame.png)
+![Degraded Example](data/processed/Degraded.png)
 
 ---
 
