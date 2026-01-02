@@ -125,12 +125,13 @@ This allows analyzing:
 If enabled, comparison plots are generated:
 
 ```
-![Model Comparison Example](results/plots/models_avg_detections.png)
-![Model Comparison Example](results/plots/models_avg_confidence.png)
-
 results/plots/models_avg_detections.png
 results/plots/models_avg_confidence.png
 ```
+
+![Model Comparison Example](results/plots/models_avg_detections.png)
+![Model Comparison Example](results/plots/models_avg_confidence.png)
+
 
 Typical interpretation:
 
