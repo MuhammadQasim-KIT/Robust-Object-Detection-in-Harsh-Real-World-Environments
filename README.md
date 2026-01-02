@@ -37,7 +37,7 @@ results/videos/carss_yolo_baseline.mp4
 
 Copy code
 
-![Baseline Example](results/example_baseline_frame.png)
+![Baseline Example](results/videos/carss_clean_yolo_annotated.mp4)
 
 ---
 
