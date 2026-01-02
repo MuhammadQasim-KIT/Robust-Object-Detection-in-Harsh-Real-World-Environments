@@ -113,6 +113,30 @@ Beyond visuals, the project records detection statistics and evaluates numerical
 
 ---
 
+# 🔀 (Optional) Model Comparison Extension
+
+This project can optionally evaluate multiple YOLO models (e.g., YOLOv8n vs YOLOv8s).  
+This allows analyzing:
+
+- Which model detects more objects in clean scenes  
+- Which model remains more robust in harsh environments  
+- Trade-offs between performance and compute cost  
+
+If enabled, comparison plots are generated:
+
+```
+results/plots/models_avg_detections.png
+results/plots/models_avg_confidence.png
+```
+
+Typical interpretation:
+
+- Larger models tend to retain higher detection counts under degradation  
+- Smaller models are faster but degrade sooner  
+- Demonstrates real-world engineering trade-offs
+
+---
+
 # 🧠 Key Learnings
 
 From both visual and numerical analysis:
