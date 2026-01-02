@@ -144,13 +144,23 @@ This highlights why real-world AI systems must focus on:
 ## 📂 Project Structure
 
 project/
+
  ├─ data/
- │   ├─ raw/
+ 
+ │   
+     ├─ raw/
+     
  │   └─ processed/
+ 
+ 
  ├─ results/
+ 
  │   ├─ videos/
+ 
  │   └─ plots/
+ 
  ├─ src/
+ 
  └─ README.md
 
 ---
