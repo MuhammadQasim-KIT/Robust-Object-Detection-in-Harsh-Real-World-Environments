@@ -41,7 +41,7 @@ Below are visual demonstrations from the pipeline.
 Detection performance on the original, clean scene.
 
 🎥 **Annotated Output Video**
-results/videos/scene1_yolo_baseline.mp4
+results/videos/carss_yolo_baseline.mp4
 
 ![Baseline Example](results/example_baseline_frame.png)
 
@@ -57,7 +57,7 @@ The same scene was transformed to mimic real-world degradation such as:
 - Sensor noise  
 
 🎥 **Degraded Video**
-data/processed/scene1_degraded.mp4
+data/processed/carss_degraded.mp4
 
 ![Degraded Example](results/example_degraded_frame.png)
 
@@ -66,7 +66,7 @@ data/processed/scene1_degraded.mp4
 ## 🔹 Detection in Harsh Conditions
 
 🎥 **Annotated Degraded Detection Video**
-results/videos/scene1_degraded_yolo.mp4
+results/videos/carss_degraded_yolo.mp4
 
 Compared to the clean version:
 - Fewer detected objects  
@@ -83,7 +83,7 @@ Beyond visuals, the project records detection statistics and evaluates numerical
 
 ## 📌 Detections Per Frame
 
-![Detections Plot](results/plots/scene1_detections_vs_frame.png)
+![Detections Plot](results/plots/carss_detections_vs_frame.png)
 
 **Insight**
 - Clean video shows stable and consistent detections
@@ -94,7 +94,7 @@ Beyond visuals, the project records detection statistics and evaluates numerical
 
 ## 📌 Confidence Per Frame
 
-![Confidence Plot](results/plots/scene1_confidence_vs_frame.png)
+![Confidence Plot](results/plots/carss_confidence_vs_frame.png)
 
 **Insight**
 - Confidence is high in clean conditions
@@ -106,10 +106,10 @@ Beyond visuals, the project records detection statistics and evaluates numerical
 ## 📌 Summary Metrics
 
 ### Average Detections Per Frame
-![Average Detections](results/plots/scene1_avg_detections_bar.png)
+![Average Detections](results/plots/carss_avg_detections_bar.png)
 
 ### Average Confidence
-![Average Confidence](results/plots/scene1_avg_confidence_bar.png)
+![Average Confidence](results/plots/carss_avg_confidence_bar.png)
 
 ---
 
