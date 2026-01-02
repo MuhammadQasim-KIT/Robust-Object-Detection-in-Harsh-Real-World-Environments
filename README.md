@@ -146,9 +146,7 @@ This highlights why real-world AI systems must focus on:
 project/
 
  ├─ data/
- 
- │   
-     ├─ raw/
+ │   ├─ raw/
      
  │   └─ processed/
  
